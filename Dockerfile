@@ -18,6 +18,8 @@ COPY . /app
 # Install npm libraries.
 RUN npm install && rm -rf /root/.npm
 
+RUN npm install typescript@">=3.4 <3.6"
+
 # Run gulp before starting.
 RUN npx gulp
 
