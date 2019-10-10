@@ -1,7 +1,7 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
-    "desktopappname": "Moodle Desktop",
+    "app_id": "com.FactorEvolucion.CodigoIoT",
+    "appname": "Codigo IoT",
+    "desktopappname": "Codigo IoT",
     "versioncode": 3710,
     "versionname": "3.7.1",
     "cache_update_frequency_usually": 420000,
@@ -74,7 +74,7 @@
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "",
+    "siteurl": "https:\/\/edu.codigoiot.com",
     "sitename": "",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
