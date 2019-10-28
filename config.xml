@@ -23,7 +23,7 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
-    <access origin="*" />
+    <access origin="edu.codigoiot.com" />
     <access origin="tel:*" launch-external="yes" />
     <access origin="mailto:*" launch-external="yes" />
     <access origin="geo:*" launch-external="yes" />
