@@ -185,7 +185,10 @@
     <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
         <string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>
     </edit-config>
-
+    <edit-config target="com.apple.developer.associated-domains" file="*-Info.plist" mode="replace">
+        <string>https://edu.codigoiot.com</string>
+    </edit-config>
+        
     <edit-config target="UISupportsDocumentBrowser" file="*-Info.plist" mode="merge">
         <true/>
     </edit-config>
